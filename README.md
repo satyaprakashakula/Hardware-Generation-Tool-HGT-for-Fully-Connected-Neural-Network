@@ -1,0 +1,2 @@
+- Devised a hardware generator tool in C++ to automate the creation of System Verilog code for evaluating three-layer neural networks, involving matrix multiplication
+- Enhanced layer evaluation throughput by 4x, raised frequency 30 percent to 0.73 GHz on 14-bit signed values through parallel processing. Analyzed area, power and performance trade-offs
