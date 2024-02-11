@@ -1,7 +1,8 @@
+// ESE 507 Project 3 Code
 
 // Getting started:
 // The main() function contains the code to read the parameters. 
-// For Parts 1 and 2, code should be in the genFCLayer() function. Please
+// For Parts 1 and 2,  code should be in the genFCLayer() function. Please
 // also look at this function to see an example for how to create the ROMs.
 //
 // For Part 3, code should be in the genNetwork() function.
@@ -226,7 +227,7 @@ void genFCLayer(int M, int N, int T, int R, int P, vector<int>& constVector, str
 // Layer 2: Input length: M1, output length: M2
 // Layer 3: Input length: M2, output length: M3
 // B is the number of multipliers your overall design may use.
-// Your goal is to build the fastest design that uses B or fewer multipliers
+// Our goal is to build the fastest design that uses B or fewer multipliers
 // constVector holds all the constants for your system (all three layers, in order)
 void genNetwork(int N, int M1, int M2, int M3, int T, int R, int B, vector<int>& constVector, string modName, ofstream &os) {
 
